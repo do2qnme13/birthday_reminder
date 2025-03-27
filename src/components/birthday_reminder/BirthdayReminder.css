@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.birthday-container {
+    width: 30%;
+    background-color: rgb(76, 140, 140);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.clear-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border: none;
+    transition: all 50ms ease-in-out;
+    
+}
+
+.clear-btn:hover {
+    opacity: 0.9;
+}
